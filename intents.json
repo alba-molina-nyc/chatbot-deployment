@@ -32,15 +32,25 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
+      "tag": "locations",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Where are you located?",
+        "Are you in the NYC area?",
+        "Are you in the New York City area?",
+        "What services do you offer?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "We are located in Queens",
+        "We serve the New York City Metropolitan area"
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns":[
+        "What services do you offer?",
+        "Do you offer psychiatric services?",
+        "Is this therapy or psychiatry?",
+        "Do you have therapy services?"
       ]
     },
     {
@@ -57,15 +67,15 @@
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "online",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "Do you do appointments via video conferencing?",
+        "Do you do phone call sessions?",
+        "Do you do zoom sessions?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Yes we do zoom sessions",
+        "Yes, we do phone sessions"
       ]
     },
     {
